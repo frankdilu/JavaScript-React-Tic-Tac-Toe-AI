@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Recursive;
+    src: url("../../fonts/Recursive.ttf");
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url("../../fonts/Roboto-Regular.ttf");
+}
+
+
+
+.headerContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3vh;
+}
+
+.headerTitleContainer{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #bbb;
+}
+
+.headerTitle{
+    font-size: 6vw;
+    margin-bottom: 1vw;
+}
+.name{
+    font-weight: 300;
+    font-family: RobotoRegular;
+    margin-right: 1vw;
+}
+.surname{
+    font-family: Recursive;
+}
+
+.headerNetworkContainer{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw;
+}
+
+.headerNetwork{
+    color: black;
+    font-family: Recursive;
+    font-size: 2vw;
+}
